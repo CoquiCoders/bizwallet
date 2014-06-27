@@ -59,10 +59,10 @@
     "string": "~1.8.1",
     "uglify-js": "^2.4.13",
     "underscore": "^1.6.0",
+    "browser-sync": "~0.8.2",
     "validator": "^3.11.0"
   },
   "devDependencies": {
-    "browser-sync": "~0.8.2",
     "browserify": "~3.36.0",
     "browserify-shim": "~3.4.1",
     "chai": "^1.9.1",
