@@ -1,7 +1,9 @@
-var choicesList = require('../lib/options');
+var OptionsList = require('../lib/OptionsList');
+console.log('migration init options list.');
+var choicesList = new OptionsList();
 
 module.exports = {
-  up: function(migration, DataTypes, done) {    
+  up: function(migration, DataTypes, done) {
     migration.addColumn(
       'opportunities',
       'purposeTemp',
